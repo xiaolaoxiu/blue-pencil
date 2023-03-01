@@ -1,0 +1,28 @@
+<!--components/procreate/procreate.wxml-->
+<view class="procreatebox">
+    <view class="procreates" wx:for="{{course}}" wx:key="index">
+        <view class="procreatesImg">
+            <image src="{{'https://ss.lanqb.com/' + item.posters.app}}" mode=""/>
+        </view>        
+        <view class="procreatesText">
+            <view class="procreatesTextone">
+                {{item.title}}
+            </view>
+            <view class="procreatesTexttwo">
+                <image src="{{'https://ss.lanqb.com/' + item.profile.avatar}}" mode=""/>
+                <text>{{item.profile.nickname}}</text> <text>共{{item.preview_setting.lessons_count}}节</text>
+            </view>
+            <view  class="procreatesTextthreen">
+               <text>{{item.study_num}}人在学</text> 
+               <view class="TextsBox">
+                    <view class="TextsBoxs">
+                        ￥{{item.production.origin_rmb_price}}
+                    </view >
+                    <view class="TextsBoxs">
+                        登录0元学
+                    </view>
+               </view>
+            </view>
+        </view>
+    </view>
+</view>

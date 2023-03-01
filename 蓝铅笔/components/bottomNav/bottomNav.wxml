@@ -1,0 +1,33 @@
+<!--components/bottomNav/bottomNav.wxml-->
+<view class="bottomNavbox">
+    <view class="bottomNavs">
+        <view class="bottomNavsText">
+            <text>关于蓝铅笔</text>
+        </view>  
+        <view class="credible">
+            <view>
+                <image src="https://assets-cdn.lanqb.com/image/footer/footer-icon1_124x47.png" mode=""/>
+            </view>
+            <view>
+                <image src="https://assets-cdn.lanqb.com/image/footer/footer-icon5@2x.png" mode=""/>
+            </view>
+            <view>
+                <image src="https://assets-cdn.lanqb.com/image/footer/footer-icon2@2x.png" mode=""/>
+            </view>
+            <view>
+                <image src="https://assets-cdn.lanqb.com/image/footer/footer-icon3@2x.png" mode=""/>
+            </view>
+            <view>
+                <image src="https://xyt.xcc.cn/img/icon/icon8.png" mode=""/>
+            </view>
+            
+        </view>
+        <view class="Bright texttwo">
+            Copyright © 2022杭州多技教育科技有限公司 浙ICP备11056181号
+        </view>
+        <view class="Bright texttwo">
+            <text></text>
+            浙公网安备33010602000717号 
+        </view>
+    </view>
+</view>

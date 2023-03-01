@@ -1,0 +1,60 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/course/course",
+        "pages/school/school",
+        "pages/newspaper/newspaper",
+        "pages/mine/mine",
+        "pages/index/index",
+        "pages/login/login",
+        "components/nav/nav",
+        "components/bottomNav/bottomNav",
+        "components/material/material",
+        "components/questions/questions"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "蓝铅笔",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "./icon/shouye.png",
+                "selectedIconPath": "./icon/shouye-h.png"
+            },
+            {
+                "pagePath": "pages/course/course",
+                "text": "教程",
+                "iconPath": "./icon/diannao.png",
+                "selectedIconPath": "./icon/diannao-h.png"
+            },
+            {
+                "pagePath": "pages/school/school",
+                "text": "网校",
+                "iconPath": "./icon/benzi.png",
+                "selectedIconPath": "./icon/benzi-h.png"
+            },
+            {
+                "pagePath": "pages/newspaper/newspaper",
+                "text": "大触",
+                "iconPath": "./icon/yonghuming.png",
+                "selectedIconPath": "./icon/yonghuming-h.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "网校",
+                "iconPath": "./icon/xinxi.png",
+                "selectedIconPath": "./icon/xinxi-h.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "requiredBackgroundModes": [
+        "audio"
+    ]
+}

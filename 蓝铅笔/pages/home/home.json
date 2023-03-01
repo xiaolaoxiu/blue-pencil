@@ -1,0 +1,11 @@
+{
+    "usingComponents": {
+          "see-More": "../../components/seeMore/seeMore",
+          "nav-View": "../../components/nav/nav",
+          "bottom-Nav":"../../components/bottomNav/bottomNav",
+          "material-View":"../../components/material/material",
+          "questions-View":"../../components/questions/questions",
+          "banner-View":"../../components/banner/banner",
+          "submenu-View":"../../components/submenus/submenu"
+    }
+}

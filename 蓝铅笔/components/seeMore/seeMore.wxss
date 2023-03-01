@@ -1,0 +1,19 @@
+/* components/seeMore/seeMore.wxss */
+.title .titles{
+    width: 100% ;
+    height: 80rpx;
+    padding: 20rpx;
+    /* line-height: 100rpx; */
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-bottom:3rpx rgba(0, 0, 0, 0.178) solid;
+}
+.title .titles text:nth-child(1){
+    font-size:30rpx;
+}
+.title .titles text:nth-child(2){
+    font-size:27rpx;
+    color: rgba(0, 0, 0, 0.63);
+}

@@ -1,0 +1,8 @@
+<view class="submenuboxs">
+    <view class="submenu">
+        <view class="submenus" wx:for="{{submenuList}}" wx:key="index" >
+            <image src="{{item.imgUrl}}" mode=""/>
+            <view>{{item.text}}</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "nav-View": "../../components/nav/nav",
+        "banner-View":"../../components/banner/banner",
+        "procreate-View":"../../components/procreate/procreate"
+    }
+}

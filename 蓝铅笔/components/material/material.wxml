@@ -1,0 +1,16 @@
+<!--components/material/material.wxml-->
+<view class="materialbox">
+    <view class="materials" wx:for="{{material}}" wx:key="index" >
+        <view class="materialsImg" >
+            <image src="{{'https://ss.lanqb.com/' + item.imgCover}}" mode=""/>
+        </view>
+        <view class="materialBox">
+          <view>
+            {{item.title}}
+          </view>
+          <view>
+             {{item.created_at}}
+          </view>
+        </view>
+    </view>
+</view>

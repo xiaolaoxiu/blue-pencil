@@ -1,0 +1,28 @@
+/* components/material/material.wxss */
+.materialbox .materials{
+    width: 100%;
+    height: 180rpx;
+    /* border: 1px red solid; */
+    padding: 20rpx;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #fff;
+    border-bottom: 3rpx solid rgba(0, 0, 0, 0.267);
+}
+.materialbox .materials .materialsImg{
+    width: 35%;
+    height: 100%;
+    /* border: 1px red solid; */
+}
+.materialbox .materials .materialBox{
+    width: 65%;
+    height: 100%;
+    /* border: 1px red solid; */
+    padding-left: 20rpx;
+    font-size: 28rpx;
+}
+.materialbox .materials .materialBox view:nth-child(2){
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 25rpx;
+    margin-top: 30rpx;
+}

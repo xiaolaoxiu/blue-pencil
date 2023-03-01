@@ -1,0 +1,119 @@
+/* pages/course/course.wxss */
+.procreate{
+    position: relative;
+    top: 160rpx;
+}
+.procreate .nan {
+    margin: 50rpx 200rpx;
+    font-size: 30rpx;
+}
+.search{
+    position: relative;
+    width: 100%;
+    top: 160rpx;
+    padding:20rpx;
+    box-sizing: border-box;
+}
+.search input{
+    width: 100%;
+    height: 80rpx;
+    border:1px rgba(0, 0, 0, 0.116) solid;
+    border-radius: 20rpx;
+    background-color: rgba(0, 0, 0, 0.027);
+    padding-left: 70rpx;
+    /* color: rgba(0, 0, 0, 0.116) ; */
+    box-sizing: border-box;
+}
+.Img{
+    /* margin: 20rpx; */
+    width: 100%;
+    height: 270rpx;
+    /* border: 1px red solid; */
+    position: relative;
+    /* z-index: 2000; */
+    top: 150rpx;
+    /* background-color: black; */
+    padding: 20rpx;
+}
+
+.Img image{
+    width: 94%;
+    height: 100%;
+    /* border: 1px red solid; */
+    border-radius: 20rpx;
+    /* margin: 20rpx; */
+}
+.filtratebox{
+    position: relative;
+    top: 165rpx;
+  
+}
+.mores,
+.filtrateboxs{  
+    overflow: hidden;
+    width: 100%;
+    height: 300rpx;
+    /* border: 1px red solid; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.mores view,
+.filtrateboxs view{
+    padding: 15rpx;
+    /* border: 1px red solid; */
+    margin: 10px;
+    font-size: 28rpx;
+    border-radius: 20px;
+}
+.mores view:hover,
+.filtrateboxs view:hover{
+    background-color:#1c9fea36;
+    color: #1c9fea;
+
+}
+.more{
+    width: 100%;
+    height: 80rpx;
+    /* border: 1px red solid; */
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 50rpx;
+}
+.mores{
+    height: 900rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+.scroll_box{
+    width: 100%;
+    overflow: hidden;
+    padding: 30rpx 0;
+    background: #fff;
+    color: #999;
+    white-space: nowrap;
+    position: relative;
+    top: 150rpx;
+    }
+   .scroll_box scroll-view{
+      height: 100%;
+      width: auto;
+      overflow:hidden;
+    }
+   .scroll-item{
+    display: inline-block;
+    font-size: 45rpx;
+    padding: 0 30rpx;   
+    }
+  .swiper-active{
+    color: black;
+  }

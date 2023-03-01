@@ -1,0 +1,7 @@
+<!--components/banner/banner.wxml-->
+<view class="bannerbox">
+    <view class="banners">
+        <image src="https://assets-cdn.lanqb.com/popupv3/221205/m-ht.png" mode=""/>
+        <button></button> 
+    </view>
+</view>

@@ -1,0 +1,18 @@
+<!--components/nav/nav.wxml-->
+<view class="headerbox">
+    <view class="headers">
+        <view class="header-brandImg">
+            <image src="https://assets-cdn.lanqb.com/lanqb/logo05.png" alt=""/>
+        </view>
+        <view class="year"></view>
+        <view class="loingRegisterbox">
+            <!-- 登陆注册 -->
+            <view class="loingRegisterImg"><image src="" mode=""/> </view>
+            <view class="loingRegisterboxs">
+                <text>登录</text>
+                <text>注册</text>
+            </view>
+        </view>
+    </view>
+</view>
+    

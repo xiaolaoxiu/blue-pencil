@@ -1,0 +1,72 @@
+/* components/questions/questions.wxss */
+.questionsbox {
+    width: 100%;
+    /* height: 600rpx; */
+    /* border: 1px red solid; */
+    padding: 20rpx;
+}
+.questionsbox .question{
+    width:93%;
+    height: 580rpx;
+    /* border: 1px red solid; */
+    border-bottom: 1px rgba(0, 0, 0, 0.295) solid;
+    background-color: #fff;
+}
+.questionsbox .question .questionTextone{
+    font-weight: 500;
+    position: relative;
+}
+.questionsbox .question .questionTextone view:nth-child(1) {
+    width: 60rpx;
+    height: 60rpx;
+    /* border: 1px solid red; */
+    position: absolute;
+    margin: 0 20rpx;
+    border-radius:50% ;
+    top: -10rpx;
+    overflow: hidden;
+}
+.questionsbox .question .questionTextone view:nth-child(2) {
+    margin: 0 100rpx;
+    
+}
+.questionsbox .question .questionTexttwo{
+    font-weight: 500;
+    font-size: 36rpx;
+}
+.questionsbox .question .questionTextthreen{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.questionsbox .question .questionTextthreen view:nth-child(1){
+    width: 75%;
+    color: rgba(0, 0, 0, 0.63);
+}
+.questionsbox .question .questionTextthreen view:nth-child(2){
+    width: 20%;
+}
+.questionsbox .question .questionTextfour{
+    width: 100%;
+    height: 180rpx;
+    border-radius: 20rpx;
+    background-color: rgba(0, 0, 0, 0.048);
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+.maTOP{
+    margin-top: 40rpx;
+}
+.questionsbox .question .questionTextfour view:nth-child(1){
+    line-height: 55rpx;
+}
+.questionsbox .question .questionTextfour view:nth-child(2){
+    font-size: 30rpx;
+    line-height: 40rpx;
+    height: 80rpx;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    /* -webkit-line-:2; */
+
+}

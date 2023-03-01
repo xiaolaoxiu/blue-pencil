@@ -1,0 +1,15 @@
+<!--pages/school/school.wxml-->
+<view class="home">
+    <!-- 导航栏 -->
+    <view>
+        <nav-View></nav-View>
+    </view>
+    <!-- 横幅广告 -->
+    <view class="banner">
+        <banner-View></banner-View>
+    </view>  
+    <!-- 子菜单 -->
+    <view class="submenubox"> 
+       <submenu-View submenuList="{{submenuList}}" ></submenu-View>
+    </view>
+</view>

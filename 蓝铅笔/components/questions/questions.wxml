@@ -1,0 +1,33 @@
+
+<view class="questionsbox">
+    <view class="question" wx:for="{{questions}}" wx:key="index">
+        <view class=" maTOP questionTextone">
+        <view>
+             <image src="{{item.user_avatar}}" mode=""/>
+        </view>
+            <view>
+                {{item.user_nickname}}
+            </view>
+        </view>
+        <view class=" maTOP questionTexttwo">
+            {{item.title}}
+        </view>
+        <view class=" maTOP questionTextthreen">
+            <view>
+                {{item.content}}
+            </view>
+            <view>
+                <image src="{{item.works}}" mode=""/>
+            </view>
+            
+        </view>
+        <view class=" maTOP questionTextfour">
+            <view>
+                {{item.answer_user_nickname}}
+            </view>
+            <view>
+                {{item.answer_content[0].value}}
+            </view>
+        </view>
+    </view>
+</view>

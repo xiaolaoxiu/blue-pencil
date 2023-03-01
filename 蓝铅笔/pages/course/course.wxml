@@ -1,0 +1,46 @@
+<!--pages/course/course.wxml-->
+<view>
+    <!-- 导航栏 -->
+    <view>
+        <nav-View></nav-View>
+    </view>
+    <!-- 横幅广告 -->
+    <view class="banner">
+        <banner-View></banner-View>
+    </view>
+    <view class="scroll_box">
+        <scroll-view scroll-x enable-passive scroll-with-animation scroll-into-view="item{{swiperActive}}" enhanced scroll-anchoring show-scrollbar="{{false}}">
+            <view wx:for="{{swiperList}}" class="scroll-item {{swiperActive==item.index?'swiper-active':''}}" id="item{{item.index}}" bindtap="swiperActiveTap" wx:key="index" data-index="{{item.index}}">
+                {{item.name}}
+            </view>
+        </scroll-view>
+    </view>
+    <!-- 搜索 -->
+    <view class="search">
+        <input type="text" bindblur="bindblur" placeholder="绘画教程" name="" id=""/>
+    </view>
+    <!-- 图片 -->
+    <view class="Img">
+        <image src="https://ss.lanqb.com/o_1f8mp9vnuchogchc1map1vgr7.png?imageView2/1/w/686/h/274" mode=""/>
+    </view>
+    <!-- 过滤列表 -->
+    <view class="filtratebox">
+        <view class="{{more?'mores':'filtrateboxs'}}">
+            <view>
+                全部
+            </view>
+            <view wx:for="{{filtrate}}" wx:key="index" bindtap="Target" data-item="{{item.name}}">
+                {{item.name}}
+            </view>
+        </view>
+        <view bindtap="more" class="more">
+            {{text}}
+        </view>
+    </view>
+    <!-- 教程 -->
+    <view class="procreate">
+        <procreate-View course="{{search?search:course}}"></procreate-View>
+        <view class="nan" wx:if="{{search==''}}" >未找到符合条件的课程</view>
+    </view>
+</view>
+

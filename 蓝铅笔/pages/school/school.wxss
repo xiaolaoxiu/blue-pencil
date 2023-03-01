@@ -1,0 +1,10 @@
+/* pages/school/school.wxss */
+
+.submenubox{
+    position: relative;
+    top: 80px;
+}
+
+
+
+

@@ -1,0 +1,113 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+    <!-- 导航栏 -->
+    <view class="header">
+        <nav-View></nav-View>
+    </view>
+    <!-- 横幅广告 -->
+    <view class="banner">
+        <banner-View></banner-View>
+    </view>
+    <!-- 轮播图 -->
+    <view>
+        <swiper class="swiper" 	circular 	autoplay	indicator-active-color="#fff" indicator-dots="{{true}}" >
+            <swiper-item  wx:for="{{swiperItem}}" wx:key="index">
+                <image src="{{'https://ss.lanqb.com/' + item.picture}}" mode=""/>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- 快递  -->
+    <!-- 子菜单 -->
+    <view class="submenubox"> 
+        <submenu-View submenuList="{{submenuList}}" ></submenu-View>
+    </view>
+    <!-- 大触直播 -->
+    <view class="audio">
+        <view class="audioText" >
+            <see-More></see-More>
+        </view>
+        <view class="audioVideo">
+            <view class="audioVideos">
+                <view class="audioVideosText">
+                    <view>
+                        kingpest
+                    </view>
+                    <view>
+                        从构思到画面深入：气质插画创作分享
+                    </view>
+                </view>
+                <view class="audioVideosVideo">
+                    <video src="blob:https://haokan.baidu.com/f53a3b17-0ac0-4c4c-9315-b8cbd903862f"/>
+                </view>
+                <view class="audioVideosVideoText">
+                    <text>时间：3月02日 19:30</text>
+                    <text>2909人感兴趣</text>
+                </view>
+            </view>
+        </view>
+        <view class="coursesbox">
+            <view class="coursesboxs">
+                <view>
+                    两仪
+                </view>
+                <view>
+                    手绘人の自我修养！黑白插画创作心得
+                </view>
+                <view>
+                    <image src="https://ss.lanqb.com/o_1gmij7hi8f2q1tff1hr1qmflei2l.png?imageView2/1/w/360/h/270" alt=""/>
+                </view>
+                <view class="textone">
+                    时间:3月16日 19:30
+                </view>
+                <view class="textone">
+                     2499
+                </view>
+            </view>
+            <view class="coursesboxs">
+                <view>
+                    咖喱
+                </view>
+                <view>
+                    美少年捏脸术！N款男性角色の刻画技巧
+                </view>
+                <view>
+                    <image src="https://ss.lanqb.com/o_1go3b4skj6cq13c5hfo1pn8s3f23.png?imageView2/1/w/360/h/270" alt=""/>
+                </view>
+                <view class="textone">
+                    时间：2月16日 19:30
+                </view>
+                <view class="textone">
+                    3112
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 热门教程 -->
+    <view  class="hotTopic">
+        <see-More></see-More>
+        <view class="hotTopicbox"  >
+            <view class="hotTopicboxs" wx:for="{{hotTopic}}" wx:key="index">
+                <view class="hotTopicImg">
+                    <image src="{{'https://ss.lanqb.com/' + item.posters.app}}" mode=""/>
+                </view>
+                <view>
+                    {{item.title}}
+                </view>
+            </view> 
+        </view>
+    </view>
+    <!-- 问答 -->
+    <view class="questions">
+        <see-More></see-More>
+        <questions-View questions="{{questions}}"></questions-View>
+    </view>
+    <!-- 素材下载 -->
+    <view class="material"> 
+        <see-More></see-More>
+        <material-View material="{{material}}"></material-View>   
+    </view>
+    <!-- 底部 -->
+    <view class="bottomNav">
+        <bottom-Nav></bottom-Nav>    
+    </view>
+</view>
